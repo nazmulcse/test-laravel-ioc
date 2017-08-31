@@ -1,0 +1,22 @@
+{
+	"name": "nazmulhasan/testioc",
+	"description": "Simple library for testing laravel Service Container / IOC",
+	"keywords": "testioc",
+	"authors":[
+		{
+			"name": "Nazmul Hasan",
+			"homepage": "http://orocoder.com",
+			"role": "developer"
+		}
+	],
+	"require":{
+		"nazmulhasan/testioc": "1.0"
+	},
+	"autoload":{
+		"psr-4":{
+			"Nazmulhasan\\Testioc\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"license":"MIT"
+}
